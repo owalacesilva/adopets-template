@@ -16,6 +16,9 @@ import { ConnectedRouter } from 'connected-react-router/immutable';
 import history from 'utils/history';
 import 'sanitize.css/sanitize.css';
 
+import 'antd/dist/antd.css';
+import 'styles.less';
+
 // Import root app
 import App from 'containers/App';
 

@@ -34,6 +34,16 @@ module.exports = options => ({
         },
       },
       {
+        test: /\.less$/,
+        use: [{
+          loader: 'style-loader' // creates style nodes from JS strings
+        }, {
+          loader: 'css-loader' // translates CSS into CommonJS
+        }, {
+          loader: 'less-loader' // compiles Less to CSS
+        }]
+      },
+      {
         // Preprocess our own .css files
         // This is the place to add your own loaders (e.g. sass/less etc.)
         // for a list of loaders, see https://webpack.js.org/loaders/#styling
@@ -110,7 +120,7 @@ module.exports = options => ({
             limit: 10000,
           },
         },
-      },
+      }
     ],
   },
   plugins: options.plugins.concat([
