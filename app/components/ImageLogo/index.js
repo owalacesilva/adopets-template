@@ -5,7 +5,7 @@
  */
 
 import React from 'react';
-import source from "./../../images/logo.svg";
+import source from '../../images/logo.svg';
 
 function ImageLogo() {
   return (

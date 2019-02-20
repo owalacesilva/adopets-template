@@ -23,8 +23,11 @@ class Footer extends React.PureComponent {
           <Row gutter={16}>
             <Col className="gutter-row" xs={24} sm={24} md={8} lg={8} xl={8}>
               <ImageLogo />
-              <p className="about-us">We built adopets to help organizations place more pets and connect those pets to their new people faster.</p>
-              <SocialMedias />              
+              <p className="about-us">
+                We built adopets to help organizations place more pets and
+                connect those pets to their new people faster.
+              </p>
+              <SocialMedias />
             </Col>
             <Col className="gutter-row" xs={0} sm={0} md={16} lg={16} xl={16}>
               <FooterLinks />

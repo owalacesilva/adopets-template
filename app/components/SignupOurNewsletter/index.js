@@ -9,10 +9,9 @@ import { Row, Col, Input, Button, Form, Icon } from 'antd';
 
 /* eslint-disable react/prefer-stateless-function */
 class SignupOurNewsletter extends React.PureComponent {
-
   handleSubmit = () => () => {
-    alert('submit')
-  }
+    alert('submit');
+  };
 
   render() {
     return (
@@ -30,9 +29,7 @@ class SignupOurNewsletter extends React.PureComponent {
                 <Input type="email" placeholder="E-mail" />
               </Form.Item>
               <Form.Item>
-                <Button
-                  type="primary"
-                  htmlType="submit">
+                <Button type="primary" htmlType="submit">
                   Sign In
                 </Button>
               </Form.Item>
